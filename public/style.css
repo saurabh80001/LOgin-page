@@ -1,0 +1,80 @@
+.main {
+    padding: 20px;
+    font-family: Arial;
+    box-shadow: 5px 5px 7px 5px #8888;
+    max-width: 400px; /* Set a maximum width for the form */
+    margin: 0 auto; /* Center the form horizontally */
+}
+
+.main h1 {
+    font-size: 36px;
+    text-align: center;
+    font-family: Arial;
+}
+
+input {
+    font-family: Arial, Helvetica, sans-serif;
+    width: calc(100% - 40px); /* Adjusted width with padding considered */
+    font-size: 20px;
+    padding: 12px 20px;
+    margin: 8px;
+    border: none;
+    border-bottom: 2px solid #764776;
+    box-sizing: border-box; /* Ensure padding is included in the width */
+}
+
+input[type=submit] {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    background-color: #764776;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 16px 32px;
+    margin: 20px 0; /* Increased margin for better spacing */
+    border-radius: 10px;
+    display: inline-block; /* Prevents full width on block elements */
+    box-sizing: border-box; /* Ensure padding is included in the width */
+}
+
+#calculator {
+    background: url('th.jpg') center/cover no-repeat;
+    width: 700px; /* Adjust the width as per your design */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(160, 47, 47, 0.1);
+    margin: 0 auto; /* Center the calculator on the page */
+}
+
+input[type="text"] {
+    width: 100%;
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    text-align: right;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+button {
+    width: 70px; /* Adjust the width as per your design */
+    height: 70px; /* Adjust the height as per your design */
+    font-size: 18px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #6a0d0d;
+}
+
+#equals {
+    background-color: #13e143;
+    color: #56000a;
+}
